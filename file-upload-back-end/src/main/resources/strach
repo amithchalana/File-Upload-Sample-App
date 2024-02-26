@@ -1,0 +1,66 @@
+    Authentication Components:
+        Login Component:
+            Related Page: Login Page
+        Signup Component:
+            Related Page: Signup Page
+        Logout Component:
+            Related Page: Logout Page
+
+    User Profile Components:
+        Profile Component:
+            Related Page: Profile Page
+        Change Password Component:
+            Related Page: Change Password Page
+
+    File Management Components:
+        File Upload Component:
+            Related Page: File Upload Page
+        File List Component:
+            Related Page: File List Page
+        File Details Component:
+            Related Page: File Details Page
+        File Upload Form Component:
+            This component can be reused on multiple pages, such as the File Upload Page and File Details Page.
+        File Preview Component:
+            This component can be included in the File Upload Component or File Details Component.
+
+    Shared Components:
+        Navbar Component:
+            Included on all pages.
+        Footer Component:
+            Included on all pages.
+
+    Authentication Pages:
+        Login Page:
+            Contains the Login Component.
+        Signup Page:
+            Contains the Signup Component.
+        Logout Page:
+            Contains the Logout Component.
+
+    User Profile Pages:
+        Profile Page:
+            Contains the Profile Component.
+        Change Password Page:
+            Contains the Change Password Component.
+
+    File Management Pages:
+        File Upload Page:
+            Contains the File Upload Component.
+        File List Page:
+            Contains the File List Component.
+        File Details Page:
+            Contains the File Details Component.
+        File Preview Page:
+            Contains the File Preview Component.
+
+    Authentication Guards:
+        Implement authentication guards to protect routes for profile and file management pages.
+
+    Services:
+        Authentication Service:
+            Handles user authentication (login, signup, logout).
+        File Service:
+            Manages file-related operations such as uploading, listing, and deleting files.
+        User Service:
+            Provides methods for fetching and updating user information.
