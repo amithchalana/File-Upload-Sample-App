@@ -1,0 +1,3 @@
+[submodule "file-uploading-front-end"]
+	path = file-uploading-front-end
+	url = https://github.com/amithchalana/File-Upload-Sample-App.git
